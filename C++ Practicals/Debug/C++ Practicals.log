@@ -1,0 +1,25 @@
+﻿Build started 7/9/2019 11:04:41 PM.
+     1>Project "C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\C++ Practicals\C++ Practicals.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\C++ Practicals.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt assignment.cpp
+         assignment.cpp
+     1>c:\users\probook\documents\visual studio 2010\projects\c++ practicals\c++ practicals\assignment.cpp(92): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\Debug\C++ Practicals.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\C++ Practicals.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\Debug\C++ Practicals.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\Debug\C++ Practicals.lib" /MACHINE:X86 Debug\assignment.obj
+         Debug\Exercise.obj
+         Debug\extra.obj
+         LINK : C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\Debug\C++ Practicals.exe not found or not built by the last incremental link; performing full link
+         C++ Practicals.vcxproj -> C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\Debug\C++ Practicals.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\Debug\C++ Practicals.exe;#1" /manifest "Debug\C++ Practicals.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\C++ Practicals.unsuccessfulbuild".
+         Touching "Debug\C++ Practicals.lastbuildstate".
+     1>Done Building Project "C:\Users\ProBook\Documents\Visual Studio 2010\Projects\C++ Practicals\C++ Practicals\C++ Practicals.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56
